@@ -93,7 +93,7 @@ Here’s the CSS for the right arrow:
 }
 ```
 
-###3. Entering the Shipping Address
+### 3. Entering the Shipping Address
 Once the user selects the mailing option and places their package, they proceed to the address input screen, where they must enter the recipient’s address and zip code. Proper form validation ensures the inputs are correct.
 
 ```html
@@ -135,7 +135,7 @@ confirmAddressBtn.addEventListener('click', function() {
 ```
 
 
-###4. Review Screen
+### 4. Review Screen
 Before making a payment, the user reviews their selections, including the service type, mailing option, and address.
 
 ```html
@@ -151,7 +151,7 @@ Before making a payment, the user reviews their selections, including the servic
 </div>
 ```
 
-###5. Simulating the Payment Process (with a Twist!)
+### 5. Simulating the Payment Process (with a Twist!)
 Once the payment is confirmed, the user is taken to a loading screen that simulates payment processing. After a 3-second delay, they are greeted with a fun "insufficient funds" message.
 
 ```javascript
@@ -194,14 +194,14 @@ The loading screen includes a CSS spinner:
 }
 ```
 
-###Challenges and Solutions
+### Challenges and Solutions
 Managing State Across Multiple Screens
 Each screen in the kiosk involves multiple user inputs that must persist across steps. I used JavaScript to store the user’s data in variables and passed it along to the review and payment screens.
 
-###Form Validation
+### Form Validation
 Proper form validation was key to ensuring a smooth user experience. I added real-time validation to fields like the zip code and card number to avoid common input errors.
 
-###Conclusion
+### Conclusion
 This mini project was a fun way to explore building a self-service kiosk. It pushed me to think about the user experience, especially the need for clear instructions, form validation, and playful touches like the humorous payment twist. By working through this project, I gained a deeper understanding of managing state between multiple screens and handling user inputs effectively.
 
 If you’d like to try it yourself or check out the code, visit the links below!
