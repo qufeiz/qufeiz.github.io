@@ -16,6 +16,8 @@ Kiosks are everywhere, from airports to post offices, making daily tasks quick a
 
 In this post, I’ll walk through the process of creating the kiosk, the challenges I faced, and the design choices that shaped the final product.
 
+![Kiosk Image](/images/blog/kiosk.png)
+
 ---
 
 ## Project Overview
