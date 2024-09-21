@@ -16,7 +16,10 @@ Kiosks are everywhere, from airports to post offices, making daily tasks quick a
 
 In this post, I’ll walk through the process of creating the kiosk, the challenges I faced, and the design choices that shaped the final product.
 
-![Kiosk Image](/images/blog/kiosk.png)
+
+<div style="float: right; width: 50%; margin-left: 10px;">
+  <img src="/images/blog/airport.png" alt="Kiosk Design">
+</div>
 
 ---
 
