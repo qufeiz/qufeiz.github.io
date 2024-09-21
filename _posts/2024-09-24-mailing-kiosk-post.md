@@ -7,6 +7,7 @@ tags:
   - CSS
   - JavaScript
   - UX
+excerpt: "A deep dive into the process of building a package mailing kiosk with HTML, CSS, and JavaScript, featuring a fun twist on the payment process!"
 ---
 
 # Building an Interactive Package Mailing Kiosk Prototype
