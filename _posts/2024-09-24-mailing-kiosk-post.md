@@ -60,6 +60,7 @@ Here’s the **HTML** for the service selection screen:
     <button type="button" id="confirmService">Confirm</button>
   </form>
 </div>
+```
 
 ### 2. Weigh Package and Visual Cues
 The weigh your package screen includes an interactive visual cue in the form of a CSS right-pointing arrow, helping users place their package in the basket.
@@ -76,6 +77,7 @@ The weigh your package screen includes an interactive visual cue in the form of 
   </div>
   <button type="button" id="confirmPackage">Confirm</button>
 </div>
+```
 
 Here’s the CSS for the right arrow:
 
@@ -89,6 +91,7 @@ Here’s the CSS for the right arrow:
   border-left: 30px solid #4CAF50; /* Green Arrow */
   margin-left: 10px;
 }
+```
 
 ###3. Entering the Shipping Address
 Once the user selects the mailing option and places their package, they proceed to the address input screen, where they must enter the recipient’s address and zip code. Proper form validation ensures the inputs are correct.
@@ -106,6 +109,7 @@ Once the user selects the mailing option and places their package, they proceed 
     <button type="button" id="confirmAddress">Confirm</button>
   </form>
 </div>
+```
 
 JavaScript Validation ensures that the address and zip code fields are filled correctly before allowing the user to proceed.
 
@@ -128,6 +132,7 @@ confirmAddressBtn.addEventListener('click', function() {
   // Proceed to the next screen after validation
   showScreen(screen5);
 });
+```
 
 
 ###4. Review Screen
@@ -144,6 +149,7 @@ Before making a payment, the user reviews their selections, including the servic
   <p><strong>Zip Code:</strong> <span id="reviewZip"></span></p>
   <button type="button" id="confirmReview">Confirm and Proceed to Payment</button>
 </div>
+```
 
 ###5. Simulating the Payment Process (with a Twist!)
 Once the payment is confirmed, the user is taken to a loading screen that simulates payment processing. After a 3-second delay, they are greeted with a fun "insufficient funds" message.
@@ -167,6 +173,8 @@ confirmPaymentBtn.addEventListener('click', function() {
     showScreen(screen8);  // Move to the insufficient funds screen
   }, 3000);
 });
+```
+
 The loading screen includes a CSS spinner:
 
 ```css
@@ -184,6 +192,7 @@ The loading screen includes a CSS spinner:
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+```
 
 ###Challenges and Solutions
 Managing State Across Multiple Screens
