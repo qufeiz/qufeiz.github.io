@@ -48,6 +48,10 @@ The project is built using **HTML**, **CSS**, and **JavaScript**, with a focus o
 
 ### 1. Service Selection Screen
 
+<div style="text-align: center;">
+  <img src="/images/blog/pageone.png" alt="Kiosk Design" style="width: 40%; max-width: 300px;">
+</div>
+
 The first screen allows users to select whether they are mailing a package or a letter. The user’s choice is validated before moving to the next screen.
 
 Here’s the **HTML** for the service selection screen:
@@ -69,6 +73,10 @@ Here’s the **HTML** for the service selection screen:
 
 ### 2. Weigh Package and Visual Cues
 The weigh your package screen includes an interactive visual cue in the form of a CSS right-pointing arrow, helping users place their package in the basket.
+
+<div style="text-align: center;">
+  <img src="/images/blog/pagetwo.png" alt="Kiosk Design" style="width: 40%; max-width: 300px;">
+</div>
 
 ```html
 <!-- Weigh Your Package Screen -->
@@ -99,7 +107,17 @@ Here’s the CSS for the right arrow:
 ```
 
 ### 3. Entering the Shipping Address
+
+<div style="text-align: center;">
+  <img src="/images/blog/page3.png" alt="Kiosk Design" style="width: 40%; max-width: 300px;">
+</div>
+
+
 Once the user selects the mailing option and places their package, they proceed to the address input screen, where they must enter the recipient’s address and zip code. Proper form validation ensures the inputs are correct.
+
+<div style="text-align: center;">
+  <img src="/images/blog/page4.png" alt="Kiosk Design" style="width: 40%; max-width: 300px;">
+</div>
 
 ```html
 <!-- Enter Address Screen -->
@@ -141,6 +159,9 @@ confirmAddressBtn.addEventListener('click', function() {
 
 
 ### 4. Review Screen
+<div style="text-align: center;">
+  <img src="/images/blog/page5.png" alt="Kiosk Design" style="width: 40%; max-width: 300px;">
+</div>
 Before making a payment, the user reviews their selections, including the service type, mailing option, and address.
 
 ```html
@@ -157,6 +178,10 @@ Before making a payment, the user reviews their selections, including the servic
 ```
 
 ### 5. Simulating the Payment Process (with a Twist!)
+<div style="text-align: center;">
+  <img src="/images/blog/page6.png" alt="Kiosk Design" style="width: 40%; max-width: 300px;">
+</div>
+
 Once the payment is confirmed, the user is taken to a loading screen that simulates payment processing. After a 3-second delay, they are greeted with a fun "insufficient funds" message.
 
 ```javascript
@@ -181,6 +206,9 @@ confirmPaymentBtn.addEventListener('click', function() {
 ```
 
 The loading screen includes a CSS spinner:
+<div style="text-align: center;">
+  <img src="/images/blog/page7.png" alt="Kiosk Design" style="width: 40%; max-width: 300px;">
+</div>
 
 ```css
 /* Loading Spinner */
@@ -198,6 +226,10 @@ The loading screen includes a CSS spinner:
   100% { transform: rotate(360deg); }
 }
 ```
+
+<div style="text-align: center;">
+  <img src="/images/blog/page8.png" alt="Kiosk Design" style="width: 40%; max-width: 300px;">
+</div>
 
 ### Challenges and Solutions
 Managing State Across Multiple Screens
