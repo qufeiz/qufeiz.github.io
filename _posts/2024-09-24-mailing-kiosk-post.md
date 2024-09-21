@@ -14,9 +14,7 @@ excerpt: "A deep dive into the process of building a package mailing kiosk with 
 
 Kiosks are everywhere, from airports to post offices, making daily tasks quick and easy. As a fun project, I decided to create a **self-service kiosk prototype** for **mailing packages**. This mini-project gave me the opportunity to sharpen my web development skills, focusing on **user experience (UX)** and building a fluid, interactive interface.
 
-<div style="float: right; width: 50%; margin-left: 10px;">
-  <img src="/images/blog/airport.png" alt="Kiosk Design">
-</div>
+![Kiosk Design](/images/blog/airport.png)
 
 In this post, I’ll walk through the process of creating the kiosk, the challenges I faced, and the design choices that shaped the final product.
 
