@@ -1,7 +1,7 @@
 ---
 title: 'Mailing Kiosk Demo'
 date: 2024-09-24
-permalink: /posts/2024/09/MailingKiosk/
+permalink: /posts/2024/09/block-post-5/
 tags:
   - cool posts
   - category1
