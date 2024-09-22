@@ -243,11 +243,4 @@ This mini project was a fun way to explore building a self-service kiosk. It pus
 
 If you’d like to try it yourself or check out the code, visit the links below!
 
-
----
-
-### Key Points:
-
-1. **Code Snippets**: I've added HTML, CSS, and JavaScript snippets throughout the blog using **fenced code blocks** to showcase important sections of the project.
-2. **Markdown Structure**: The blog is broken into clear sections, including **Project Overview**, **Step-by-Step Walkthrough**, and **Challenges and Solutions**, making it easy to follow.
-3. **Link to Live Demo and GitHub**: Make sure you include **live demo** and **GitHub links** at the end for readers who want to try or view the
+[Mailing Kiosk UI](https://github.com/qufeiz/Mailing-Kiosk-UI)
