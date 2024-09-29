@@ -19,7 +19,7 @@ The most horrible thing about this is that she makes Kasuga believe that this is
 
 He feels mentally cut off from everyone else, especially his crush Saeki. Because of this, she's the only one who "sees the real him." At this point, she seems to be his only source of comfort, even though she's the one hurting him. Kasuga starts to believe that she is the only one who can save him from the shame she is putting on him.
 
-I don't even know how to describe how painful that is to watch. She plays such a cruel psychological game on him, and the way she makes him feel like he's not worth anything is just...it's awful. Because she keeps manipulating Kasuga, you can't do anything but watch her fall deeper and deeper into self-hatred.
+I don't even know how to describe how uncomfortable that is to watch. She plays such a cruel psychological game on him, and the way she makes him feel like he's not worth anything is just...it's awful. Because she keeps manipulating Kasuga, you can't do anything but watch her fall deeper and deeper into self-hatred.
 
 When Nakamura gaslights someone, it's not just trickery; it's almost cruelly clever. She knows how to use Kasuga's guilt to her advantage, pulling him deeper into his own sadness and making him believe that she is the only one who can help him deal with it. To be honest, she's the kind of character that makes you think about how far control, manipulation, and emotional abuse can go. I've never seen gaslighting done this badly, and Nakamura does it so perfectly that it scares me.
 
