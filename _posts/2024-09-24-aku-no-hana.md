@@ -20,7 +20,7 @@ While the act itself might seem minor, the series magnifies the emotional intens
 
 ---
 
-#### **2. Nakamura: The Queen of Manipulation and Gaslighting**
+#### **2. Nakamura: The Queen of Gaslighting**
 
 Perhaps the most unnerving character in *Aku no Hana* is **Nakamura**, who serves as the story’s psychological antagonist. Nakamura's manipulation of Kasuga borders on **psychological abuse**, as she relentlessly calls him "trash" and forces him to wear the stolen gym clothes, pushing him into increasingly humiliating situations. Her actions represent a form of **gaslighting**—while her manipulations are overt and extreme, they reflect real-world dynamics where emotional abuse is often more covert.
 
