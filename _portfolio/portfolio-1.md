@@ -55,3 +55,91 @@ Technologies Used:
 MATLAB: For symbolic derivation of the equations of motion and numerical simulations.
 Simulink: For implementing the dynamic simulation and designing the control system.
 Control Theory: To design a feedback system that stabilizes the pendulum in real time.
+
+Self-Balancing Robot with Extended Kalman Filter and Trajectory Control
+Project Overview:
+In this project, I developed a self-balancing two-wheeled robot utilizing an Extended Kalman Filter (EKF) to estimate the system states from noisy sensor data, and implemented a Proportional-Derivative (PD) controller to maintain balance and follow a desired trajectory. The system was modeled and simulated using MATLAB/Simulink, and the control algorithm was designed to ensure smooth and accurate tracking of predefined paths.
+
+Key Objectives:
+Design a state estimation algorithm using an Extended Kalman Filter (EKF) to handle noisy sensor inputs from accelerometers and gyroscopes.
+Implement a PD controller for balance control and trajectory tracking based on sensor feedback.
+Simulate and test the system in MATLAB to ensure robust performance under varying conditions, including noisy environments and real-world uncertainties.
+My Role:
+As the lead developer of this project, I was responsible for the entire workflow—from system modeling to implementation, testing, and performance tuning. I leveraged the following skills to achieve the project goals:
+
+Control System Design: Implemented a cascade control architecture with inner-loop balancing and outer-loop trajectory tracking.
+State Estimation: Developed the EKF to filter out noise from sensors and accurately estimate the robot's roll angle (
+𝜙
+ϕ) and angular velocity (
+𝜙
+˙
+ϕ
+˙
+​
+ ).
+Trajectory Tracking: Integrated trajectory control using wheel encoders and calculated desired body angles (
+𝜙
+des
+ϕ 
+des
+​
+ ) to ensure smooth movement along a predefined path.
+Noise Handling: Tuned the EKF's process and measurement noise covariances to improve stability and noise robustness in real-time scenarios.
+Technical Challenges:
+Noisy Sensor Data:
+
+The robot’s accelerometer and gyroscope readings were subject to noise, making direct control challenging. I addressed this by designing and fine-tuning the EKF to estimate the roll angle and angular velocity from the noisy measurements.
+Non-linear Dynamics:
+
+Balancing a two-wheeled robot involves non-linear dynamics, especially when the system deviates significantly from the upright position. By incorporating a non-linear control law using the sine function, I ensured that the system could handle larger angle deviations smoothly.
+Trajectory Control:
+
+The robot needed to follow a predefined path while maintaining balance. This required designing an outer-loop PD controller that calculated the desired body angle 
+𝜙
+des
+ϕ 
+des
+​
+  based on the robot's position 
+𝑥
+x and velocity 
+𝑥
+˙
+x
+˙
+ , and an inner-loop PD controller to balance the robot using real-time feedback.
+Tools & Technologies:
+MATLAB/Simulink for system modeling, simulation, and control design.
+State Estimation using Extended Kalman Filters (EKF) to estimate the roll angle and angular velocity from accelerometer and gyroscope data.
+Control Theory: Cascade PD control structure for balancing and trajectory tracking.
+Signal Processing: Filter design and noise rejection techniques for sensor data.
+
+Outcomes:
+Stable Balance Control:
+
+Successfully implemented a robust balance control system that maintained the robot in an upright position even under significant disturbances and noisy sensor readings. The EKF effectively filtered out the noise, enabling accurate state estimation for the controller.
+Accurate Trajectory Tracking:
+
+The robot was able to follow a desired trajectory (such as a sinusoidal or step response) while maintaining balance. The PD controller, combined with the wheel encoder readings, ensured precise movement along the trajectory, with minimal deviation from the target.
+Noise Robustness:
+
+The EKF significantly improved the system's ability to operate in noisy environments, filtering out sensor noise and enabling the robot to make smooth and reliable control decisions. This made the system more practical for real-world deployment where sensor noise is inevitable.
+Refined Control Gains:
+
+Through extensive testing and simulation, I was able to fine-tune the proportional and derivative control gains for both the balancing and trajectory control loops, optimizing the robot's responsiveness and stability.
+What I Learned:
+Advanced Control Theory: This project deepened my understanding of control system design, particularly how to handle non-linear dynamics and combine state estimation with real-time control for complex systems.
+State Estimation Techniques: Working with the Extended Kalman Filter taught me how to estimate system states accurately in the presence of noise, a key skill in robotics and autonomous systems.
+Iterative Tuning: I gained hands-on experience in tuning control parameters and noise covariances to achieve the desired system performance, balancing responsiveness with stability.
+MATLAB/Simulink Proficiency: I developed a strong command over MATLAB/Simulink for simulation and testing, learning how to effectively model dynamic systems, simulate sensor inputs, and visualize system performance.
+Potential Applications:
+Autonomous Robots: The techniques developed in this project can be applied to balance control in two-wheeled robots or other dynamically unstable platforms such as hoverboards, self-balancing scooters, or robotic manipulators.
+Self-Driving Vehicles: The state estimation and control strategies are highly transferable to autonomous systems, such as drones, self-driving cars, and other vehicles that require precise control under noisy conditions.
+Key Skills Developed:
+State Estimation: Expertise in implementing Extended Kalman Filters (EKF) for filtering noisy sensor data and accurately estimating system states.
+Control Systems: Advanced understanding of PID and PD controllers, including non-linear control techniques for dynamically unstable systems.
+Simulation and Modeling: Proficient in using MATLAB/Simulink for dynamic system simulation, modeling, and control validation.
+Signal Processing: Experience in handling noisy sensor data and implementing filtering techniques to improve system robustness.
+Visuals (Optional for Portfolio Website):
+Simulation Results: Include graphs showing the robot's roll angle, angular velocity, and trajectory tracking performance over time.
+System Diagram: A block diagram showing the flow of sensor data through the EKF, and how the controller computes the control inputs based on the estimated states and desired trajectory.
