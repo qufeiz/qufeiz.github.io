@@ -1,5 +1,5 @@
 ---
-title: 'Anime Review: Aku no Hana'
+title: 'Reflection on Gaslighting'
 date: 2024-09-28
 permalink: /posts/2024/09/akunohana/
 tags:
