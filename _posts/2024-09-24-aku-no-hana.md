@@ -4,6 +4,7 @@ date: 2024-09-28
 permalink: /posts/2024/09/akunohana/
 tags:
   - anime review
+published: false
 ---
 
 ### Reflection on Gaslighting
